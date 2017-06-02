@@ -19,7 +19,7 @@
         <clobbers target="cordova.plugins.blinkIdScanner" />
     </js-module>
 
-    <hook type="after_platform_add" src="addEmbedded.js" />
+    <hook type="before_build" src="addEmbedded.js" />
 
     <!-- android -->
     <platform name="android">
